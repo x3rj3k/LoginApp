@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Login App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="d-flex justify-content-center h-100">
+            <div class="card">
+                <div class="card-header">
+                    <h3 id="admin-text">It works</h3>
+                    <div class="d-flex justify-content-center social_icon">
+                        <i class="fa fa-user-circle"></i>
+                    </div>
+                    <h2>LOGIN</h2>
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="input-group form-group">
+                            <input type="text" id="user" class="form-control" placeholder="username">
+                        </div>
+                        <p id="required-user">*This field cannot be empty</p>
+                        <div class="input-group form-group">
+                            <input type="password" id="pwd" class="form-control" placeholder="password">
+                        </div>
+                        <p id="required-pass">*This field cannot be empty</p>
+                        <div class="form-group">
+                            <button type="button" onclick="getObj()" class="btn btn-primary float-center login_btn">Sign in</button>
+                            <h3 id="user-text">It works</h3>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
